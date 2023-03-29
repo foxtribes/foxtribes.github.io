@@ -21,15 +21,20 @@ while 1:
     system("cls||clear")
     print("""{}
      ______                         _     
-    |  ____|                       | |    
-    | |__   _ __   ___  _   _  __ _| |__  
-    |  __| | '_ \ / _ \| | | |/ _` | '_ \ 
-    | |____| | | | (_) | |_| | (_| | | | |
-    |______|_| |_|\___/ \__,_|\__, |_| |_|
-                               __/ |      
-                              |___/      
+    ░░░░░░░░░░░░░░░▄▄░░░░░░░░░░░
+    ░░░░░░░░░░░░░░█░░█░░░░░░░░░░
+    ░░░░░░░░░░░░░░█░░█░░░░░░░░░░
+    ░░░░░░░░░░░░░░█░░█░░░░░░░░░░
+    ░░░░░░░░░░░░░░█░░█░░░░░░░░░░
+    ██████▄███▄████░░███▄░░░░░░░
+    ▓▓▓▓▓▓█░░░█░░░█░░█░░░███░░░░
+    ▓▓▓▓▓▓█░░░█░░░█░░█░░░█░░█░░░
+    ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░░█░░░
+    ▓▓▓▓▓▓█░░░░░░░░░░░░░░░░█░░░░
+    ▓▓▓▓▓▓█░░░░░░░░░░░░░░██░░░░░
+    ▓▓▓▓▓▓█████░░░░░░░░░██░░░░░░
     Sms: {}                         
-    Ara: {}              {}by {}@tingirifistik\n  
+    Ara: {}              {}by {}@foxtribes\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), len(servisler_call), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n 2- Ara\n 3- Katkıda Bulunanlar\n 4- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
@@ -178,7 +183,7 @@ while 1:
         input()
     elif menu == 3:
         system("cls||clear")
-        print(Fore.LIGHTWHITE_EX + " tingirifistik\n Bora185\n Arcturus")
+        print(Fore.LIGHTWHITE_EX + " foxtribes\n Bora185\n Arcturus")
         sleep(12)
     elif menu == 4:
         system("cls||clear")
