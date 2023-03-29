@@ -183,7 +183,7 @@ while 1:
         input()
     elif menu == 3:
         system("cls||clear")
-        print(Fore.LIGHTWHITE_EX + " foxtribes\n Bora185\n Arcturus")
+        print(Fore.LIGHTWHITE_EX + " foxtribes\n Etirnese")
         sleep(12)
     elif menu == 4:
         system("cls||clear")
